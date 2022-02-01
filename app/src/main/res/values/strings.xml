@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">ShopNow</string>
+    <string name="create_account">Create Account</string>
+    <string name="passward">Passward</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="add_product">Add_product</string>
+    <string name="add_new_products">Add new Products</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="user_name">user name</string>
+    <string name="cart">Cart</string>
+    <string name="orders">Orders</string>
+    <string name="category">Category</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="priceAdapter">"Price = %1$s"</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_description">Product Description</string>
+    <string name="product_price">Product Price</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="total_price">Total Price =</string>
+    <string name="next">Next</string>
+    <string name="product_quantity">Product Quantity</string>
+    <string name="quantityAdapter">"Quantity = %1s"</string>
+    <string name="nameAdapter">"Name = %1s"</string>
+    <string name="please_confirm_your_shipment_details">Please confirm your Shipment Details</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_phone_number">Your Phone Number</string>
+    <string name="your_address">Your Address</string>
+    <string name="your_city">Your City</string>
+    <string name="your_city_name">Your City Name</string>
+    <string name="confirm">Confirm</string>
+    <string name="overall_Total_price">"Total Price = $%1s"</string>
+    <string name="shipped">"Dear %1s order is shipped successfully."</string>
+    <string name="shippedMsg">"Shipping State = Not Shipped"</string>
+    <string name="congratulations_your_final_order_has_been_placed_successfully_soon_you_will_receive_your_order">Congratulations, your final order has been placed successfully, Soon it will be verified.</string>
+    <string name="congratulations_your_final_order_has_been_shipped_successfully_soon_you_will_receive_your_order">Congratulations, your final order has been placed shipped, Soon you will receive your order at your door steps.</string>
+    <string name="new_orders">New Orders</string>
+    <string name="orders_phone_number">Phone Number</string>
+    <string name="username">UserName</string>
+    <string name="order_name">"Name: %1s"</string>
+    <string name="order_phone_number">"Phone Number: %1s"</string>
+    <string name="order_totalPrice">"Total Price: %1s"</string>
+    <string name="order_orderAt">"Ordered At: %1s  %1s"</string>
+    <string name="order_shipping">"Shipping Address: %1s, %1s"</string>
+    <string name="log_out">Log Out</string>
+    <string name="check_new_orders">Check New Orders</string>
+    <string name="username_order">UserName Order</string>
+    <string name="products">Products</string>
+    <string name="search">Search</string>
+    <string name="maintain_products">Maintain Products</string>
+    <string name="delete">Delete</string>
+    <string name="delete_this_products">delete this products</string>
+    <string name="apply_changes">Apply Changes</string>
+    <string name="set_security_questions">Set Security Questions</string>
+    <string name="answer_the_following_security_questions">Answer the following security questions?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="what_is_name_of_your_pet">What is name of your pet?</string>
+    <string name="what_is_your_favorite_place">what is your favorite place?</string>
+    <string name="verify">Verify</string>
+    <string name="seller_registration_form">Seller Registration Form</string>
+    <string name="name">name</string>
+    <string name="email">Email</string>
+    <string name="your_shop_address">Your Shop Address</string>
+    <string name="already_have_an_account">Already Have an Account</string>
+    <string name="seller_login_form">Seller Login Form</string>
+    <string name="title_activity_seller_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="add">Add</string>
+    <string name="wants_to_become_a_seller">Wants to become a Seller?</string>
+    <string name="forget_passward">Forget Passward</string>
+    <string name="remember_me">Remember me</string>
+    <string name="register">Register</string>
+    <string name="seller_name">Seller Name</string>
+    <string name="not_an_admin">Not an Admin?</string>
+    <string name="admin">Admin?</string>
+    <string name="welcome_dear_admin">Welcome Dear Admin</string>
+    <string name="approve_new_products">Approve New Products</string>
+    <string name="my_all_un_verified_products">My All Products</string>
+    <string name="product_status">Product Status</string>
+    <string name="check_status">Status: %1s</string>
+    <string name="congratulations_your_order_has_been_placed_successfully_soon_it_will_be_verified">Congratulations, your order has been placed successfully, Soon it will be verified.</string>
+
+
+</resources>

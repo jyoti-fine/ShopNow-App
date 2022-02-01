@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "196519278045",
+    "firebase_url": "https://ecommerce-7302b-default-rtdb.firebaseio.com",
+    "project_id": "ecommerce-7302b",
+    "storage_bucket": "ecommerce-7302b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196519278045:android:fd59e8b4cfc9f22caa3234",
+        "android_client_info": {
+          "package_name": "com.example.shopnow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196519278045-dkvqeeeatrmjf295go6bt55ssstbfdq5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shopnow",
+            "certificate_hash": "94b96806e0be88c973252ab8b970fd80d5309b9d"
+          }
+        },
+        {
+          "client_id": "196519278045-lcbbqtbdhvbjil3jflnc17l69d7m3tdm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl277RJHmscvo69-WuEZSGhVnacpXI6D8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196519278045-lcbbqtbdhvbjil3jflnc17l69d7m3tdm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

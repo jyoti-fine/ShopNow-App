@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sellers.SellerLogIn">
+
+    <ImageView
+        android:id="@+id/img_seller"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/seller" />
+
+    <TextView
+        android:id="@+id/title_seller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_seller"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/seller_login_form"
+        android:textSize="24sp"
+
+
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seller_logIn_email"
+        android:hint="@string/email"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/title_seller"
+        android:inputType="text"
+        android:textSize="16dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seller_log_In_password"
+        android:hint="@string/passward"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/seller_logIn_email"
+        android:inputType="text"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/seller_login_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/teal_700"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Login"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:layout_marginBottom="10dp"
+
+
+
+        />
+
+
+
+
+</RelativeLayout>

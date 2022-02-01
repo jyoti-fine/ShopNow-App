@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Buyers.MainActivity">
+
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/app_logo"
+        android:src="@drawable/applogo"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_margin="@dimen/cardview_default_radius"
+        />
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="88dp"
+        android:id="@+id/app_slogan"
+        android:layout_marginTop="140dp"
+        android:text="choose and shop right at your home"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        />
+
+
+
+    <Button
+        android:id="@+id/main_join__btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/main_login__btn"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="323dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="5dp"
+        android:padding="20dp"
+        android:text="Join Now"
+        android:textAllCaps="false"
+        android:textColor="@color/purple_700"
+        android:textSize="15sp"
+        android:backgroundTint="@color/design_default_color_secondary"/>
+
+    <Button
+        android:id="@+id/main_login__btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="20dp"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:text="Already have account?Login in"
+        android:textColor="@color/white"
+        android:layout_above="@+id/seller_begin"/>
+
+
+    <TextView
+        android:id="@+id/seller_begin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wants_to_become_a_seller"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+
+    />
+
+
+</RelativeLayout>
